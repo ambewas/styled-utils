@@ -15,7 +15,7 @@ const getSpacing = (size = 0) => {
 
 const getTopRightBottomLeft = type => (sizeTop = '0', sizeRight = '0', sizeBottom = '0', sizeLeft = '0') => {
   return css`
-    ${type}: ${getSpacing(sizeTop)} ${getSpacing(sizeRight)} ${getSpacing(sizeBottom)} ${getSpacing(sizeLeft)}
+    ${type}: ${getSpacing(sizeTop)} ${getSpacing(sizeRight)} ${getSpacing(sizeBottom)} ${getSpacing(sizeLeft)};
   `
 }
 
