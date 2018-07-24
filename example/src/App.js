@@ -5,7 +5,7 @@ import {padding, margin} from 'styled-utils'
 export default class App extends Component {
   render() {
     return (
-      <div className={padding(2, 3, 2, 1) + " " + marginj(2, 3, 2, 1)}>
+      <div className={padding(2, 3, 2, 1) + " " + margin(2, 3, 2, 1)}>
         hello
       </div>
     )
