@@ -19,5 +19,5 @@ const getTopRightBottomLeft = type => (sizeTop = '0', sizeRight = '0', sizeBotto
   `
 }
 
-export const getPadding = getTopRightBottomLeft('padding')
-export const getMargin = getTopRightBottomLeft('margin')
+export const padding = getTopRightBottomLeft('padding')
+export const margin = getTopRightBottomLeft('margin')
