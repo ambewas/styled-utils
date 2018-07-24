@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save styled-utils
+npm install --save @ambewas/styled-utils
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save styled-utils
 ```jsx
 import React, { Component } from 'react'
 
-import {padding, margin} from 'styled-utils'
+import {padding, margin} from '@ambewas/styled-utils'
 
 export default class App extends Component {
   render() {
